@@ -16,6 +16,7 @@
             <input type="text" [(ngModel)]="currentRestaurant.adresseRestaurant" name="adresseRestaurant" class="form-control">
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4">
+            <label>Type Restaurant</label>
             <select class="form-control form-control-lg" id="idType" name="idType" [(ngModel)]="updatedTypeId">
                 <option *ngFor="let type of types" [value]="type.idType">
                     {{type.nomType}}

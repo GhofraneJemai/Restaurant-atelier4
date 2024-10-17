@@ -20,9 +20,9 @@ export class RestaurantService {
       { idType: 7, nomType: "Cuisine du Moyen-Orient" }
     ]; 
     this.restaurants = [
-      {idRestaurant: 1, nomRestaurant: "Le Gourmet", adresseRestaurant: "123 Rue Principale", type: { idType: 1, nomType: "européenne" },dateOuverture: new Date("01/14/2011")},
+      {idRestaurant: 1, nomRestaurant: "Le Gourmet", adresseRestaurant: "123 Rue Principale", type: { idType: 1, nomType: "Cuisine européenne" },dateOuverture: new Date("01/14/2011")},
       {idRestaurant: 2, nomRestaurant: "El Sombrero", adresseRestaurant: "456 Avenue des Champs",type: { idType: 3, nomType: "Cuisine mexicaine et latino-américaine" }, dateOuverture: new Date("12/17/2010")},
-      {idRestaurant: 3, nomRestaurant: "Sushi World", adresseRestaurant: "789 Boulevard du Sushi",type: { idType: 2, nomType: "asiatique" }, dateOuverture: new Date("02/20/2020")}
+      {idRestaurant: 3, nomRestaurant: "Sushi World", adresseRestaurant: "789 Boulevard du Sushi",type: { idType: 2, nomType: "Cuisine asiatique" }, dateOuverture: new Date("02/20/2020")}
     ];
   }
   listeTypes(): Type[] {
